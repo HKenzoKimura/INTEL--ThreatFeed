@@ -2,6 +2,8 @@
 
 Script Python para coleta e consolidação de endereços IP maliciosos a partir de múltiplos feeds públicos e privados de Threat Intelligence (blocklists, IOCs, listas de reputação), com exportação para um arquivo `.pkl` (Pandas Pickle) para uso posterior em pipelines de detecção/enriquecimento.
 
+## `Developed by: HKK`
+
 ## Funcionalidades
 
 - Consulta uma lista configurável de feeds de TI (`feeds`), suportando respostas em **texto puro** (uma entrada por linha) e **JSON**.
